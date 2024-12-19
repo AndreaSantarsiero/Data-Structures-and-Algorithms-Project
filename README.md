@@ -28,14 +28,18 @@ Questo progetto simula la gestione operativa di una pasticceria come parte della
    make progetto.c
 
 3. **Esecuzione:**
-   Fornisci al programma un file di input con i comandi e redirigi l'output in un file per il confronto:  
+   Fornisci al programma un file di input con i comandi e redirigi l'output in un file per il confronto:
+   ```bash  
    ./progetto < test_cases_pubblici/input.txt > output.txt  
 
-4. **Confronto Output:**
-   Confronta il file `output.txt` generato con il file `test_cases_pubblici/output.txt` usando strumenti come `diff` o `meld`:  
-   - diff output.txt test_cases_pubblici/output.txt
+5. **Confronto Output:**
+   Confronta il file `output.txt` generato con il file `test_cases_pubblici/output.txt` usando strumenti come `diff` o `meld`:
+   ```bash
+   diff output.txt test_cases_pubblici/output.txt
+   ```
+   ```bash
    - meld output.txt test_cases_pubblici/output.txt
-
+   
 ## Come Testare il Progetto
 - **Cartella `test_cases_pubblici`:** Include esempi di file di input e output per verificare il corretto funzionamento del programma. 
 - Verifica il comportamento del programma confrontando l'output generato con i file di output forniti.
