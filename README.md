@@ -23,11 +23,9 @@ Questo progetto simula la gestione operativa di una pasticceria come parte della
 
 ## Come Eseguire il Progetto
 1. **Compilazione del programma:**
-   Usa un compilatore come GCC per generare l'eseguibile utilizzando le opzioni del MAKEFILE:  
-   make progetto.c
+   Usa un compilatore come GCC per generare l'eseguibile utilizzando le opzioni del MAKEFILE:
    ```bash
-  # Compilazione
-  gcc -o pasticceria progetto.c
+  make progetto.c
 
 3. **Esecuzione:**
    Fornisci al programma un file di input con i comandi e redirigi l'output in un file per il confronto:  
