@@ -1,7 +1,7 @@
 # Gestione Pasticceria - Prova Finale di Algoritmi e Strutture Dati
 
 ## Descrizione del Progetto
-Questo progetto simula la gestione operativa di una pasticceria industriale come parte della prova finale del corso di Algoritmi e Strutture Dati 2023-2024. Il sistema è progettato per gestire ingredienti, ricette e ordini, operando in tempo discreto. Include funzionalità avanzate per garantire efficienza e correttezza nell'elaborazione.
+Questo progetto simula la gestione operativa di una pasticceria industriale come parte della prova finale del corso di Algoritmi e Strutture Dati 2023-2024. Il sistema gestisce ingredienti, ricette e ordini, operando in tempo discreto e seguendo rigorosi vincoli di efficienza e correttezza.
 
 ## Struttura del Progetto
 - **File principali:**
