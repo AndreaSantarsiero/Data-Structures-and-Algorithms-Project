@@ -25,10 +25,10 @@ Questo progetto simula la gestione operativa di una pasticceria come parte della
 1. **Compilazione del programma:**
    Usa un compilatore come GCC per generare l'eseguibile utilizzando le opzioni del MAKEFILE:
    ```bash
-   make progetto.c
+   make progetto
 
 3. **Esecuzione:**
-   Fornisci al programma un file di input con i comandi e redirigi l'output in un file per il confronto:
+   Fornisci al programma un file di input con i comandi e redirigi l'output in un file di testo:
    ```bash  
    ./progetto < test_cases_pubblici/input.txt > output.txt  
 
@@ -38,14 +38,15 @@ Questo progetto simula la gestione operativa di una pasticceria come parte della
    diff output.txt test_cases_pubblici/output.txt
    ```
    ```bash
-   - meld output.txt test_cases_pubblici/output.txt
+   meld output.txt test_cases_pubblici/output.txt
    
 ## Come Testare il Progetto
 - **Cartella `test_cases_pubblici`:** Include esempi di file di input e output per verificare il corretto funzionamento del programma. 
 - Verifica il comportamento del programma confrontando l'output generato con i file di output forniti.
-- Usa strumenti come `diff` per identificare eventuali discrepanze. 
+- Usa strumenti come `diff` o `meld` per identificare eventuali discrepanze.
+- Usa strumenti come `callgrind` o `massif` per verificarne le prestazioni. 
 
 ## Conclusioni
-Il progetto richiede una gestione efficiente della memoria e attenzione ai dettagli implementativi. Completarlo con successo garantisce una valutazione basata su correttezza ed efficienza.  
+Il progetto richiede una gestione efficiente della memoria e del tempo di esecuzione, oltre che una discreta attenzione ai dettagli implementativi.
 
-Per maggiori dettagli, consulta la documentazione fornita e sfrutta i test cases pubblici per il debugging.
+Per maggiori dettagli, consulta la documentazione fornita nella sezione `risorse principali`.
