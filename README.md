@@ -1,12 +1,13 @@
 # Gestione Pasticceria - Prova Finale di Algoritmi e Strutture Dati
 
 ## Descrizione del Progetto
-Questo progetto simula la gestione operativa di una pasticceria industriale come parte della prova finale del corso di Algoritmi e Strutture Dati 2023-2024. Il sistema gestisce ingredienti, ricette e ordini, operando in tempo discreto e seguendo rigorosi vincoli di efficienza e correttezza.
+Questo progetto simula la gestione operativa di una pasticceria industriale come parte della prova finale del corso di Algoritmi e Strutture Dati 2023-2024. Il sistema è progettato per gestire ingredienti, ricette e ordini, operando in tempo discreto. Include funzionalità avanzate per garantire efficienza e correttezza nell'elaborazione.
 
 ## Struttura del Progetto
 - **File principali:**
   - `progetto.c`: Codice sorgente del progetto.
-  - Documentazione PDF con la specifica dettagliata dei requisiti e regole del progetto.
+  - Documentazione PDF con i requisiti dettagliati.
+  - **Cartella `test_cases`:** Contiene file di test pubblici con esempi di input e output per verificare il comportamento del programma.
 
 - **Funzionalità principali:**
   - Gestione degli ingredienti e del magazzino.
@@ -25,22 +26,21 @@ Questo progetto simula la gestione operativa di una pasticceria industriale come
    - Prepara un file di input testuale contenente i comandi richiesti.
 
 2. **Compilazione del programma:**
-   Usa un compilatore come GCC per generare l'eseguibile.
+   Usa un compilatore come GCC per generare l'eseguibile:  
+   gcc -o pasticceria progetto.c  
 
 3. **Esecuzione:**
-   - Fornisci al programma un file di input con i comandi.
-   - I risultati saranno prodotti in standard output o rediretti in un file.
+   Fornisci al programma un file di input con i comandi e redirigi l'output in un file per il confronto:  
+   ./pasticceria < test_cases/input.txt > output.txt  
 
-Esempio di comando per la compilazione:  
-gcc -o pasticceria progetto.c  
-
-Esempio di comando per l'esecuzione:  
-./pasticceria < input.txt > output.txt  
+4. **Confronto Output:**
+   Confronta il file `output.txt` generato con il file `test_cases/output.txt` usando strumenti come `diff`:  
+   diff output.txt test_cases/output.txt  
 
 ## Come Testare il Progetto
-- Utilizza i casi di test forniti nella documentazione per verificare il comportamento del programma.
-- Confronta l'output generato con quello atteso.
-- Se disponibile, usa strumenti automatici di generazione di casi di test per verifiche più approfondite.
+- **Cartella `test_cases`:** Include esempi di file di input e output per verificare il corretto funzionamento del programma. 
+- Verifica il comportamento del programma confrontando l'output generato con i file di output forniti.
+- Usa strumenti come `diff` per identificare eventuali discrepanze.
 
 ## Esempio di Input/Output
 ### Input:
@@ -53,7 +53,6 @@ accettato
 camioncino vuoto  
 
 ## Conclusioni
-Il progetto richiede una gestione efficiente della memoria e attenzione ai dettagli implementativi. Completare il progetto con successo garantisce una valutazione basata su correttezza ed efficienza.
+Il progetto richiede una gestione efficiente della memoria e attenzione ai dettagli implementativi. Completarlo con successo garantisce una valutazione basata su correttezza ed efficienza.  
 
-Per maggiori dettagli, consulta la documentazione fornita.
-
+Per maggiori dettagli, consulta la documentazione fornita e sfrutta i test cases pubblici per il debugging.
