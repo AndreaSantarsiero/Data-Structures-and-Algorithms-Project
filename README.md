@@ -9,8 +9,7 @@ Questo progetto simula la gestione operativa di una pasticceria come parte della
   - [Presentazione del progetto](docs/PFAPI2023-2024.pdf)
   - [Documentazione e specifiche](docs/Prova%20finale%20di%20algoritmi%20e%20strutture%20dati.pdf)
   - [Testing](docs/strumenti_progetto_api.pdf)
-  - [Testing](test_cases_pubblici)
-  - **Cartella `test_cases`:** Contiene file di test pubblici con esempi di input e output per verificare correttezza e prestazioni del programma
+  - [Esempi di input e output per verificare correttezza e prestazioni del programma](test_cases_pubblici)
 
 - **Funzionalità principali:**
   - Gestione degli ingredienti e del magazzino
