@@ -22,24 +22,21 @@ Questo progetto simula la gestione operativa di una pasticceria come parte della
 - Non sono utilizzate librerie esterne, né multithreading
 
 ## Come Eseguire il Progetto
-1. **Preparazione:**
-   - Compilare il file `progetto.c` con un compilatore C compatibile
-   - Prepara un file di input testuale contenente i comandi richiesti
+1. **Compilazione del programma:**
+   Usa un compilatore come GCC per generare l'eseguibile utilizzando le opzioni del MAKEFILE:  
+   make progetto.c  
 
-2. **Compilazione del programma:**
-   Usa un compilatore come GCC per generare l'eseguibile:  
-   gcc -o pasticceria progetto.c  
-
-3. **Esecuzione:**
+2. **Esecuzione:**
    Fornisci al programma un file di input con i comandi e redirigi l'output in un file per il confronto:  
-   ./pasticceria < test_cases/input.txt > output.txt  
+   ./progetto < test_cases_pubblici/input.txt > output.txt  
 
-4. **Confronto Output:**
-   Confronta il file `output.txt` generato con il file `test_cases/output.txt` usando strumenti come `diff`:  
-   diff output.txt test_cases/output.txt  
+3. **Confronto Output:**
+   Confronta il file `output.txt` generato con il file `test_cases_pubblici/output.txt` usando strumenti come `diff` o `meld`:  
+   - diff output.txt test_cases_pubblici/output.txt
+   - meld output.txt test_cases_pubblici/output.txt
 
 ## Come Testare il Progetto
-- **Cartella `test_cases`:** Include esempi di file di input e output per verificare il corretto funzionamento del programma. 
+- **Cartella `test_cases_pubblici`:** Include esempi di file di input e output per verificare il corretto funzionamento del programma. 
 - Verifica il comportamento del programma confrontando l'output generato con i file di output forniti.
 - Usa strumenti come `diff` per identificare eventuali discrepanze. 
 
