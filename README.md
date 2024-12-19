@@ -5,10 +5,10 @@ Questo progetto simula la gestione operativa di una pasticceria come parte della
 
 ## Struttura del Progetto
 - **File principali:**
-  - [progetto.c](progetto.c): Codice sorgente
-  - [Presentazione](docs/PFAPI2023-2024.pdf): Presentazione del progetto
-  - [Specifiche](docs/Prova%20finale%20di%20algoritmi%20e%20strutture%20dati.pdf): Documentazione e specifiche
-  - [Testing](docs/strumenti_progetto_api.pdf): Istruzioni per il testing
+  - [progetto.c](progetto.c) - Codice sorgente
+  - [Presentazione](docs/PFAPI2023-2024.pdf) - Presentazione del progetto
+  - [Specifiche](docs/Prova%20finale%20di%20algoritmi%20e%20strutture%20dati.pdf) - Documentazione e specifiche
+  - [Testing](docs/strumenti_progetto_api.pdf) - Istruzioni per il testing
   - **Cartella `test_cases`:** Contiene file di test pubblici con esempi di input e output per verificare correttezza e prestazioni del programma
 
 - **Funzionalità principali:**
